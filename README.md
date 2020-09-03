@@ -1,0 +1,6 @@
+This assignment was to create a password generator that would allow the user to input their preferences and 
+write a script that would randomly generate a password based on the criteria picked by the user. Options included
+uppercase/lowercase letters, special characters, and numbers. The password needs to be between 8-128 characters total.
+Uses a combination of functions, objects, arrays and for loops in Javascript.
+
+
