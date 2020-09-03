@@ -3,4 +3,8 @@ write a script that would randomly generate a password based on the criteria pic
 uppercase/lowercase letters, special characters, and numbers. The password needs to be between 8-128 characters total.
 Uses a combination of functions, objects, arrays and for loops in Javascript.
 
+Link to deployed site: https://jordanmorse.github.io/passwordgenerator/
+Link to Github repo: https://github.com/jordanmorse/passwordgenerator
+
+
 
