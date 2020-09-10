@@ -1,4 +1,5 @@
-// Assignment Code
+// defining variables and arrays
+
 var generateBtn = document.querySelector("#generate");
 
 var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" ];
@@ -12,6 +13,8 @@ var numOptions = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 var empty = [];
 
 var newPass = "";
+
+//function to determine the specifics of the password as indicated by the user
 
 function getPasswordOptions() {
   var length = parseInt(prompt("How many characters would you like your password to have?"));
@@ -43,6 +46,7 @@ function getPasswordOptions() {
     alert("You have to pick at least one option.");
     return
   }
+
 //object properties can be written this way because key=variable value (not always)
   var passwordOptions = {
     characters,
@@ -59,6 +63,9 @@ function getRandom() {
 }
 
 function generatePassword() {
+
+  newPass = ""
+
   var options = getPasswordOptions();
   console.log(options);
   
@@ -92,3 +99,5 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+

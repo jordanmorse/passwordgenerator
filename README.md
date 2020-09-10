@@ -8,5 +8,5 @@ User will click "generate password" button and respond to a series of prompts wh
 Link to deployed site: https://jordanmorse.github.io/passwordgenerator/
 Link to Github repo: https://github.com/jordanmorse/passwordgenerator
 
-
+![screenshot of app](./images/screenshot.png)
 
